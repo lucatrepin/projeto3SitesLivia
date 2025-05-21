@@ -7,7 +7,6 @@
     background-color: rgba(0, 148, 148, 0.555);
     display: flex;
     justify-content: space-between;
-    padding: 42px;
 }
 
 #index #links > div {
@@ -45,6 +44,24 @@
     font-size: 40px;
     padding: 18px;
 }
+
+#index body, #site01 body, #site02 body, #site03 body {
+    padding: 42px;
+}
+
+#site01 #calc table caption {
+   white-space: nowrap;
+}
+
+#site01 #calc form  {
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    align-items: center;
+}
+
 
 
 
