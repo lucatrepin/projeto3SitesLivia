@@ -4,67 +4,114 @@
 }
 
 #index body {
-    background-color: rgba(0, 148, 148, 0.555);
+    background-color:rgb(0, 128, 85);
+    padding: 40px;
+}
+
+#index main {
     display: flex;
+    flex-flow: row nowrap;
     justify-content: space-between;
 }
 
 #index #links > div {
     border: 2px solid black;
     border-radius: 8px;
-    width: 300px;
-    height: 300px;
-    margin-bottom: 18px;
-    cursor: pointer;
-    background-color: rgb(0, 110, 74);
+    margin-bottom: 32px;
+    width: 500px;
 }
+
 
 #index img {
     width: 100%;
-    border-radius: 8px;
-}
-
-#index #links h2 {
-    font-size: 25px;
-    padding: 4px;
-    text-align: center;
-}
-
-#index #introduction {
-    flex-grow: 1;
-    margin-right: 30px;
-}
-
-#index #introduction h1 {
-    font-size: 70px;
-    text-align: center;
-}
-
-#index #introduction p {
-    font-size: 40px;
-    padding: 18px;
-}
-
-#index body, #site01 body, #site02 body, #site03 body {
-    padding: 42px;
-}
-
-#site01 #calc table caption {
-   white-space: nowrap;
-}
-
-#site01 #calc form  {
-    border: 2px solid black;
-    border-radius: 8px;
-    display: flex;
-    flex-direction: column;
-    padding: 8px;
-    align-items: center;
 }
 
 
+#site01 body {
+    background-color: #008000;
+    padding: 32px;
+}
 
 
+/* Estilo base para os sites */
+#site02 body,
+#site03 body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #111;
+}
 
+/* Cabeçalho */
+#site02 header,
+#site03 header {
+  background-color: #1a4d1a;
+  color: #fff;
+  padding: 20px 5vw;
+  border-bottom: 4px solid #0f3a0f;
+}
 
+#site02 header h1,
+#site03 header h1 {
+  margin: 0;
+  font-size: 2em;
+}
 
+/* Seções principais */
+#site02 section,
+#site03 section {
+  padding: 25px 5vw;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Títulos das seções */
+#site02 section h2,
+#site03 section h2 {
+  color: #1a4d1a;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+/* Parágrafos */
+#site02 section p,
+#site03 section p {
+  font-size: 1em;
+  margin-bottom: 15px;
+}
+
+/* Listas */
+#site02 section ul,
+#site03 section ul {
+  padding-left: 20px;
+  margin-bottom: 15px;
+}
+
+#site02 section ul li,
+#site03 section ul li {
+  margin-bottom: 8px;
+  font-size: 1em;
+}
+
+/* Destaques */
+#site02 strong,
+#site03 strong {
+  color: #0e330e;
+}
+
+/* Itálico */
+#site02 em,
+#site03 em {
+  color: #555;
+  font-style: italic;
+}
+
+/* Largura adaptável ao conteúdo */
+#site02 section,
+#site03 section {
+  width: 90%;
+  margin: 0 auto;
+}
